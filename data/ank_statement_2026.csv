@@ -1,0 +1,145 @@
+date,description,amount,category,payment_method
+2026-01-01,Salary Credit,55000,Income,Bank
+2026-01-02,House Rent,-12000,Bills,Bank
+2026-01-03,Swiggy Order,-350,Food,UPI
+2026-01-05,Uber Ride,-220,Transport,UPI
+2026-01-06,Electricity Bill,-900,Bills,UPI
+2026-01-07,Netflix Subscription,-499,Entertainment,Card
+2026-01-10,Amazon Purchase,-1800,Shopping,Card
+2026-01-12,Petrol Pump,-1500,Transport,Card
+2026-01-15,Internet Bill,-799,Bills,UPI
+2026-01-18,Restaurant Dinner,-950,Food,Card
+2026-01-20,Pharmacy,-450,Health,UPI
+2026-01-25,Flipkart Order,-1200,Shopping,UPI
+
+2026-02-01,Salary Credit,55000,Income,Bank
+2026-02-02,House Rent,-12000,Bills,Bank
+2026-02-03,Zomato Food,-500,Food,UPI
+2026-02-05,Metro Travel,-180,Transport,Cash
+2026-02-07,Spotify Subscription,-199,Entertainment,Card
+2026-02-10,Myntra Shopping,-2200,Shopping,Card
+2026-02-12,Petrol Pump,-1400,Transport,Card
+2026-02-15,Mobile Recharge,-399,Bills,UPI
+2026-02-18,Cafe Coffee,-250,Food,Cash
+2026-02-22,Doctor Visit,-700,Health,Cash
+2026-02-25,Amazon Order,-1500,Shopping,UPI
+
+2026-03-01,Salary Credit,55000,Income,Bank
+2026-03-02,House Rent,-12000,Bills,Bank
+2026-03-04,Swiggy Order,-400,Food,UPI
+2026-03-06,Uber Ride,-300,Transport,UPI
+2026-03-08,Netflix Subscription,-499,Entertainment,Card
+2026-03-10,Flipkart Purchase,-1800,Shopping,UPI
+2026-03-12,Electricity Bill,-950,Bills,UPI
+2026-03-15,Restaurant Dinner,-1000,Food,Card
+2026-03-18,Petrol Pump,-1600,Transport,Card
+2026-03-20,Pharmacy,-500,Health,UPI
+2026-03-25,Amazon Purchase,-2000,Shopping,Card
+
+2026-04-01,Salary Credit,55000,Income,Bank
+2026-04-02,House Rent,-12000,Bills,Bank
+2026-04-03,Zomato Food,-600,Food,UPI
+2026-04-05,Ola Ride,-250,Transport,UPI
+2026-04-07,Spotify Subscription,-199,Entertainment,Card
+2026-04-10,Myntra Shopping,-2500,Shopping,Card
+2026-04-12,Internet Bill,-850,Bills,UPI
+2026-04-15,Cafe Coffee,-300,Food,Cash
+2026-04-18,Petrol Pump,-1500,Transport,Card
+2026-04-22,Doctor Visit,-800,Health,Cash
+2026-04-25,Amazon Order,-1800,Shopping,UPI
+
+2026-05-01,Salary Credit,55000,Income,Bank
+2026-05-02,House Rent,-12000,Bills,Bank
+2026-05-03,Swiggy Order,-450,Food,UPI
+2026-05-05,Uber Ride,-280,Transport,UPI
+2026-05-07,Netflix Subscription,-499,Entertainment,Card
+2026-05-10,Flipkart Purchase,-1700,Shopping,Card
+2026-05-12,Electricity Bill,-1000,Bills,UPI
+2026-05-15,Restaurant Dinner,-900,Food,Card
+2026-05-18,Petrol Pump,-1400,Transport,Card
+2026-05-20,Pharmacy,-600,Health,UPI
+2026-05-25,Amazon Purchase,-1900,Shopping,Card
+
+2026-06-01,Salary Credit,55000,Income,Bank
+2026-06-02,House Rent,-12000,Bills,Bank
+2026-06-03,Zomato Food,-550,Food,UPI
+2026-06-05,Metro Travel,-200,Transport,Cash
+2026-06-07,Spotify Subscription,-199,Entertainment,Card
+2026-06-10,Myntra Shopping,-2100,Shopping,Card
+2026-06-12,Internet Bill,-900,Bills,UPI
+2026-06-15,Cafe Coffee,-300,Food,Cash
+2026-06-18,Petrol Pump,-1500,Transport,Card
+2026-06-22,Doctor Visit,-700,Health,Cash
+2026-06-25,Amazon Order,-1700,Shopping,UPI
+
+2026-07-01,Salary Credit,55000,Income,Bank
+2026-07-02,House Rent,-12000,Bills,Bank
+2026-07-03,Swiggy Order,-500,Food,UPI
+2026-07-05,Uber Ride,-250,Transport,UPI
+2026-07-07,Netflix Subscription,-499,Entertainment,Card
+2026-07-10,Flipkart Purchase,-1600,Shopping,Card
+2026-07-12,Electricity Bill,-950,Bills,UPI
+2026-07-15,Restaurant Dinner,-1100,Food,Card
+2026-07-18,Petrol Pump,-1400,Transport,Card
+2026-07-20,Pharmacy,-550,Health,UPI
+2026-07-25,Amazon Purchase,-2000,Shopping,Card
+
+2026-08-01,Salary Credit,55000,Income,Bank
+2026-08-02,House Rent,-12000,Bills,Bank
+2026-08-03,Zomato Food,-450,Food,UPI
+2026-08-05,Metro Travel,-220,Transport,Cash
+2026-08-07,Spotify Subscription,-199,Entertainment,Card
+2026-08-10,Myntra Shopping,-2300,Shopping,Card
+2026-08-12,Internet Bill,-850,Bills,UPI
+2026-08-15,Cafe Coffee,-280,Food,Cash
+2026-08-18,Petrol Pump,-1600,Transport,Card
+2026-08-22,Doctor Visit,-750,Health,Cash
+2026-08-25,Amazon Order,-1800,Shopping,UPI
+
+2026-09-01,Salary Credit,55000,Income,Bank
+2026-09-02,House Rent,-12000,Bills,Bank
+2026-09-03,Swiggy Order,-600,Food,UPI
+2026-09-05,Uber Ride,-300,Transport,UPI
+2026-09-07,Netflix Subscription,-499,Entertainment,Card
+2026-09-10,Flipkart Purchase,-1900,Shopping,Card
+2026-09-12,Electricity Bill,-1000,Bills,UPI
+2026-09-15,Restaurant Dinner,-1200,Food,Card
+2026-09-18,Petrol Pump,-1500,Transport,Card
+2026-09-20,Pharmacy,-650,Health,UPI
+2026-09-25,Amazon Purchase,-2100,Shopping,Card
+
+2026-10-01,Salary Credit,55000,Income,Bank
+2026-10-02,House Rent,-12000,Bills,Bank
+2026-10-03,Zomato Food,-500,Food,UPI
+2026-10-05,Metro Travel,-200,Transport,Cash
+2026-10-07,Spotify Subscription,-199,Entertainment,Card
+2026-10-10,Myntra Shopping,-2400,Shopping,Card
+2026-10-12,Internet Bill,-900,Bills,UPI
+2026-10-15,Cafe Coffee,-300,Food,Cash
+2026-10-18,Petrol Pump,-1600,Transport,Card
+2026-10-22,Doctor Visit,-800,Health,Cash
+2026-10-25,Amazon Order,-1900,Shopping,UPI
+
+2026-11-01,Salary Credit,55000,Income,Bank
+2026-11-02,House Rent,-12000,Bills,Bank
+2026-11-03,Swiggy Order,-550,Food,UPI
+2026-11-05,Uber Ride,-250,Transport,UPI
+2026-11-07,Netflix Subscription,-499,Entertainment,Card
+2026-11-10,Flipkart Purchase,-2000,Shopping,Card
+2026-11-12,Electricity Bill,-950,Bills,UPI
+2026-11-15,Restaurant Dinner,-1000,Food,Card
+2026-11-18,Petrol Pump,-1400,Transport,Card
+2026-11-20,Pharmacy,-600,Health,UPI
+2026-11-25,Amazon Purchase,-2200,Shopping,Card
+
+2026-12-01,Salary Credit,55000,Income,Bank
+2026-12-02,House Rent,-12000,Bills,Bank
+2026-12-03,Zomato Food,-700,Food,UPI
+2026-12-05,Metro Travel,-220,Transport,Cash
+2026-12-07,Spotify Subscription,-199,Entertainment,Card
+2026-12-10,Myntra Shopping,-2600,Shopping,Card
+2026-12-12,Internet Bill,-950,Bills,UPI
+2026-12-15,Party Dinner,-1500,Food,Card
+2026-12-18,Petrol Pump,-1700,Transport,Card
+2026-12-20,Doctor Visit,-900,Health,Cash
+2026-12-25,Amazon Purchase,-2500,Shopping,Card

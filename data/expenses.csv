@@ -1,0 +1,46 @@
+date,description,amount,category,payment_method
+2026-01-01,Salary,50000,Income,Bank
+2026-02-01,Salary,50000,Income,Bank
+2026-03-01,Salary,50000,Income,Bank
+2026-04-01,Salary,50000,Income,Bank
+2026-05-01,Freelance Income,20000,Income,UPI
+2026-01-07,Doctor,-765.09,Health,Card
+2026-03-28,Zomato,-1329.52,Food,Cash
+2026-01-14,Electricity,-173.61,Bills,Cash
+2026-02-02,Zomato,-665.01,Food,Card
+2026-03-19,Metro,-1693.78,Transport,Cash
+2026-03-06,Metro,-1506.01,Transport,UPI
+2026-02-27,Fuel,-1744.66,Transport,UPI
+2026-03-20,Mobile Recharge,-361.37,Bills,Card
+2026-03-08,Doctor,-1556.81,Health,UPI
+2026-05-01,Netflix,-1067.9,Entertainment,Card
+2026-02-27,Netflix,-208.76,Entertainment,Card
+2026-02-28,Myntra,-1663.12,Shopping,Card
+2026-02-17,Netflix,-101.74,Entertainment,UPI
+2026-03-21,Ola,-1496.87,Transport,Cash
+2026-03-03,Cafe,-1422.8,Food,Cash
+2026-02-17,Ola,-600.81,Transport,Card
+2026-04-12,Uber,-657.87,Transport,Cash
+2026-03-30,Flipkart,-817.74,Shopping,Cash
+2026-02-12,Pharmacy,-442.07,Health,UPI
+2026-02-16,Internet,-994.54,Bills,UPI
+2026-03-26,Zomato,-266.49,Food,UPI
+2026-01-25,Restaurant,-522.81,Food,Cash
+2026-01-24,Myntra,-498.65,Shopping,UPI
+2026-02-07,Doctor,-668.72,Health,UPI
+2026-01-05,Zomato,-1162.14,Food,Card
+2026-02-08,Doctor,-457.76,Health,Cash
+2026-02-26,Fuel,-1879.01,Transport,Cash
+2026-01-07,Ola,-1293.36,Transport,Card
+2026-04-04,Flipkart,-1479.58,Shopping,Cash
+2026-01-29,Water Bill,-177.62,Bills,Card
+2026-02-08,Metro,-318.27,Transport,UPI
+2026-03-10,Doctor,-534.35,Health,Card
+2026-04-02,Internet,-1374.08,Bills,Card
+2026-01-10,Water Bill,-837.89,Bills,UPI
+2026-03-20,Movie,-1794.86,Entertainment,Cash
+2026-04-20,Metro,-234.43,Transport,Cash
+2026-04-24,Flipkart,-1070.49,Shopping,UPI
+2026-03-08,Swiggy,-1535.41,Food,UPI
+2026-04-02,Water Bill,-612.95,Bills,Card
+2026-04-10,Metro,-343.16,Transport,Card

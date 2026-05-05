@@ -267,6 +267,62 @@ streamlit run app/app.py
 
 ---
 
+## 📸 Screenshots & System Walkthrough
+
+### 🖥️ Full Dashboard Overview
+<p align="center">
+  <img src="outputs/dashboard.png" width="900"/>
+</p>
+
+---
+
+### 📊 Category Analysis (Spending Breakdown)
+<p align="center">
+  <img src="outputs/categories.png" width="800"/>
+</p>
+
+---
+
+### 🥧 Expense Distribution (Pie Chart View)
+<p align="center">
+  <img src="outputs/pie_chart.png" width="700"/>
+</p>
+
+---
+
+### 📈 Monthly Spending Trends
+<p align="center">
+  <img src="outputs/trends.png" width="800"/>
+</p>
+
+---
+
+### 🔮 AI Prediction System (ML Output)
+<p align="center">
+  <img src="outputs/predictor.png" width="700"/>
+</p>
+
+---
+
+### 🧠 Model Evaluation (Confusion Matrix)
+<p align="center">
+  <img src="outputs/confusion_matrix.png" width="600"/>
+</p>
+
+---
+
+### 📊 Feature Visualization
+<p align="center">
+  <img src="outputs/categories.png" width="600"/>
+</p>
+
+---
+
+### 🗂️ Project Structure
+<p align="center">
+  <img src="outputs/structure.png" width="500"/>
+</p>
+
 ## 🚀 Future Enhancements
 
 * 🔐 User authentication system

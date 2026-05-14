@@ -1,177 +1,270 @@
-# 💸 AI-Powered Expense Tracker (End-to-End ML + Analytics System)
+# 💸 AI-Powered Expense Tracker & Financial Analytics Dashboard
 
-> A production-style personal finance analytics system that combines **data engineering, machine learning, and interactive visualization** to deliver actionable financial insights.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/FinTech-AI%20Analytics-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Dashboard-Streamlit-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Enabled-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Visualization-Plotly-success?style=for-the-badge">
+</p>
+
+<h1 align="center">💰 AI Expense Tracker</h1>
+
+<p align="center">
+📊 Intelligent Personal Finance Analytics & Expense Prediction System
+</p>
 
 ---
 
-## 🚀 Overview
+# 🌐 Live Demo
 
-This project is not just a dashboard—it simulates a **real-world fintech analytics pipeline**:
+## 🚀 Open Live Dashboard
 
-* Ingests structured/unstructured expense data (CSV or default dataset)
-* Cleans and validates inconsistent schemas automatically
-* Applies Machine Learning for **expense categorization**
-* Generates **behavioral insights and budget signals**
-* Presents everything in a **modern interactive UI (Streamlit)**
+👉 https://ai-expense-tracker-bcnpvttthcqzcmsqfcs5rs.streamlit.app/
 
 ---
 
-## 🎯 Problem Statement
+# 🖥 Dashboard Preview
 
-Most individuals track expenses manually without extracting meaningful insights.
+<p align="center">
+  <img src="outputs/dashboard.png" width="950"/>
+</p>
+
+---
+
+# 📌 Project Overview
+
+The AI Expense Tracker & Financial Analytics Dashboard is a production-style FinTech analytics system built using Python, Streamlit, Machine Learning, SQLite, and interactive data visualization tools.
+
+This project simulates a real-world intelligent expense management platform capable of:
+
+- 💳 Tracking financial transactions
+- 📊 Visualizing spending behavior
+- 🤖 Predicting expense categories
+- 📈 Generating financial insights
+- 🔮 Forecasting expense trends
+
+The dashboard transforms raw financial records into actionable insights using Machine Learning and Data Science workflows.
+
+---
+
+# ❗ Problem Statement
+
+Most individuals manage expenses manually without extracting meaningful insights from their financial data.
+
 This leads to:
 
-* Poor financial decisions
-* Lack of spending awareness
-* No predictive categorization
+- 💸 Poor financial decisions
+- 📉 Lack of spending awareness
+- 📊 No budget analysis
+- 🔮 No predictive categorization
+- 🧾 Difficulty in tracking spending patterns
 
-👉 This project solves that by combining:
+Traditional expense trackers provide limited analytics and no AI-driven recommendations.
 
-* Automated categorization (ML)
-* Data visualization
-* Insight generation
+This project solves these challenges using:
+
+- 🤖 Machine Learning
+- 📊 Interactive Visualization
+- 📈 Financial Analytics
+- 💡 Intelligent Insights
 
 ---
 
-## 🧠 System Architecture
+# 🎯 Project Objectives
+
+✅ Track and manage expenses efficiently  
+✅ Analyze spending patterns  
+✅ Visualize financial behavior  
+✅ Predict expense categories using ML  
+✅ Generate smart financial insights  
+✅ Build an interactive analytics dashboard  
+✅ Improve financial awareness and planning  
+
+---
+
+# 🧠 AI Features
+
+The dashboard includes several AI-powered financial analytics capabilities:
+
+- 🔮 Expense Category Prediction
+- 📈 Monthly Expense Trend Analysis
+- 📊 Spending Visualization
+- 💳 Category-wise Expense Analytics
+- 💡 Budget Signals & Alerts
+- 🧾 Financial Pattern Detection
+- 🤖 Machine Learning Classification
+
+---
+
+# 🧠 System Architecture
 
 ```text
 User Input (CSV / Default Data)
         ↓
 Data Cleaning & Validation
         ↓
-Feature Engineering (Text → TF-IDF)
+Feature Engineering (TF-IDF)
         ↓
-ML Model (Logistic Regression)
+Machine Learning Model
         ↓
 Predictions + Aggregations
         ↓
-Visualization Layer (Streamlit)
+Interactive Visualization
         ↓
 Insights & Alerts
 ```
 
 ---
 
-## ⚙️ Core Features
+# ⚙️ Core Features
 
-### 📊 1. Interactive Dashboard
+# 📊 1. Interactive Dashboard
 
-* KPI Cards:
+### KPI Cards
 
-  * Total Spend
-  * Total Income
-  * Net Savings
-* Responsive layout (wide mode)
-* Clean dark UI with custom CSS
+- 💰 Total Spend
+- 💵 Total Income
+- 📈 Net Savings
+- 📊 Spending Ratio
 
----
+### Dashboard UI
 
-### 📈 2. Data Visualization
-
-* Category-wise spending:
-
-  * Bar Chart
-  * Pie Chart
-* Monthly trend analysis:
-
-  * Time-series line chart
-* Fully dynamic based on input dataset
+- Wide layout
+- Dark professional theme
+- Responsive analytics design
 
 ---
 
-### 🔮 3. Machine Learning Prediction
+# 📈 2. Financial Data Visualization
 
-* Input: Free-text expense description
-* Output: Predicted category
+### 📊 Category-wise Analysis
 
-#### Model Pipeline:
+- Bar Charts
+- Pie Charts
+- Expense Distribution
+
+---
+
+### 📈 Monthly Spending Trends
+
+- Time-series visualization
+- Spending behavior analysis
+- Monthly financial monitoring
+
+---
+
+# 🔮 3. AI Expense Prediction
+
+### ML Pipeline
 
 ```text
-Text → TF-IDF Vectorization → Logistic Regression → Prediction
+Text Description
+        ↓
+TF-IDF Vectorization
+        ↓
+Logistic Regression
+        ↓
+Expense Category Prediction
 ```
 
-* Handles unseen text inputs
-* Fast and lightweight inference
+### Example
+
+| Input | Prediction |
+|---|---|
+| Swiggy Order | Food |
+| Uber Ride | Travel |
+| Amazon Shopping | Shopping |
 
 ---
 
-### 📂 4. CSV Upload + Auto Handling
+# 📂 4. CSV Upload & Smart Handling
 
-* Upload custom datasets
-* Automatically:
+The system supports custom datasets with automatic preprocessing:
 
-  * Normalizes column names
-  * Fixes spacing issues
-  * Handles case inconsistencies
-  * Drops invalid rows
+✅ Column normalization  
+✅ Missing value handling  
+✅ Invalid row filtering  
+✅ Date conversion  
+✅ Case inconsistency fixing  
 
-👉 Example handled cases:
-
-* " Date " → "date"
-* "AMOUNT" → "amount"
-
----
-
-### 📊 5. Smart Business Insights
-
-* Highest spending category
-* Average daily spend
-* Spending patterns
-* Budget alerts:
-
-  * Overspending detection
-  * Controlled spending feedback
-
----
-
-### 🛡️ 6. Robust Error Handling
-
-* Missing column detection
-* Invalid date handling
-* Empty dataset protection
-* Model availability check
-
----
-
-## 🧪 Dataset Schema
-
-Your CSV must follow:
+### Supported Format
 
 ```csv
 date,description,amount,category,payment_method
 ```
 
-### Rules:
+---
 
-* Positive amount → Income
-* Negative amount → Expense
-* Date format → `YYYY-MM-DD`
+# 📊 5. Smart Financial Insights
+
+The dashboard generates intelligent insights such as:
+
+- Highest spending category
+- Average daily expense
+- Spending trends
+- Overspending detection
+- Budget control feedback
 
 ---
 
-## 📂 Project Structure
+# 🛡️ 6. Robust Error Handling
+
+Includes:
+
+✅ Missing column detection  
+✅ Invalid date handling  
+✅ Empty dataset protection  
+✅ ML model availability check  
+
+---
+
+# 📊 Machine Learning Details
+
+| Component | Description |
+|---|---|
+| Model | Logistic Regression |
+| Input | Expense Description |
+| Vectorization | TF-IDF |
+| Output | Expense Category |
+
+---
+
+# ⚙️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Core Programming |
+| Pandas | Data Analysis |
+| NumPy | Numerical Computing |
+| Streamlit | Dashboard Development |
+| Plotly | Interactive Charts |
+| Matplotlib | Visualization |
+| SQLite | Database Storage |
+| Scikit-learn | Machine Learning |
+| Joblib | Model Saving |
+| GitHub | Version Control |
+| Streamlit Cloud | Deployment |
+
+---
+
+# 📂 Project Structure
 
 ```text
 AI-Expense-Tracker/
 │
 ├── app/
-│   └── app.py              # Main Streamlit app
+│   └── app.py
 │
 ├── src/
 │   ├── data/
-│   │   ├── generate_data.py
-│   │   └── load_data.py
-│   │
 │   ├── models/
-│   │   └── train_model.py
-│   │
 │   ├── utils/
 │   └── visualization/
 │
-├── data/                   # CSV datasets
-├── models/                 # Trained ML model (.pkl)
-├── outputs/                # Generated plots
+├── data/
+├── models/
+├── outputs/
 │
 ├── requirements.txt
 └── README.md
@@ -179,18 +272,75 @@ AI-Expense-Tracker/
 
 ---
 
-## ⚙️ Installation Guide
+# 📸 Dashboard Screenshots
 
-### 1️⃣ Clone Repository
+# 🖥️ Full Dashboard Overview
+
+<p align="center">
+  <img src="outputs/dashboard.png" width="900"/>
+</p>
+
+---
+
+# 📊 Category Analysis
+
+<p align="center">
+  <img src="outputs/categories.png" width="800"/>
+</p>
+
+---
+
+# 🥧 Expense Distribution
+
+<p align="center">
+  <img src="outputs/pie_chart.png" width="700"/>
+</p>
+
+---
+
+# 📈 Monthly Spending Trends
+
+<p align="center">
+  <img src="outputs/trends.png" width="800"/>
+</p>
+
+---
+
+# 🔮 AI Prediction System
+
+<p align="center">
+  <img src="outputs/predictor.png" width="700"/>
+</p>
+
+---
+
+# 🧠 Model Evaluation
+
+<p align="center">
+  <img src="outputs/confusion_matrix.png" width="600"/>
+</p>
+
+---
+
+# 🚀 Installation Guide
+
+## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Expense-Tracker.git
+git clone https://github.com/sujalkrshaw/AI-Expense-Tracker.git
+```
+
+---
+
+## 2️⃣ Open Project Folder
+
+```bash
 cd AI-Expense-Tracker
 ```
 
 ---
 
-### 2️⃣ Create Virtual Environment
+## 3️⃣ Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -199,7 +349,7 @@ venv\Scripts\activate
 
 ---
 
-### 3️⃣ Install Dependencies
+## 4️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -207,7 +357,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4️⃣ Train Model (IMPORTANT)
+## 5️⃣ Train ML Model
 
 ```bash
 python -m src.models.train_model
@@ -215,7 +365,7 @@ python -m src.models.train_model
 
 ---
 
-### 5️⃣ Run Application
+## 6️⃣ Run Streamlit Dashboard
 
 ```bash
 streamlit run app/app.py
@@ -223,142 +373,101 @@ streamlit run app/app.py
 
 ---
 
-## 📊 Example Workflow
+# 🌐 Deployment
 
-1. Launch app
-2. Upload CSV OR use default dataset
-3. View:
+This project is deployed using Streamlit Community Cloud.
 
-   * KPIs
-   * Charts
-   * Trends
-4. Enter text:
+## 🚀 Live Website
 
-   * “Swiggy order” → Predict category
-5. Analyze insights
+https://ai-expense-tracker-bcnpvttthcqzcmsqfcs5rs.streamlit.app/
 
 ---
 
-## 🧠 Machine Learning Details
+# 📈 Performance
 
-| Component     | Description         |
-| ------------- | ------------------- |
-| Model         | Logistic Regression |
-| Input         | Text (description)  |
-| Vectorization | TF-IDF              |
-| Output        | Category label      |
+✅ Lightweight ML model  
+✅ Fast prediction speed  
+✅ Handles medium-scale datasets efficiently  
+✅ Optimized for interactive dashboards  
 
 ---
 
-## 📈 Performance
+# 💼 Real-World Applications
 
-* Lightweight model → fast inference
-* Handles small-to-medium datasets efficiently
-* Suitable for real-time dashboards
+Applicable in:
 
----
-
-## 💼 Real-World Applications
-
-* Personal finance tracking apps
-* Expense management systems
-* Fintech dashboards
-* Budget planning tools
+- 💳 FinTech Platforms
+- 📊 Personal Finance Management
+- 🏦 Expense Tracking Systems
+- 📈 Budget Planning Tools
+- 🤖 AI Financial Assistants
 
 ---
 
-## 📸 Screenshots & System Walkthrough
+# 🚀 Future Enhancements
 
-### 🖥️ Full Dashboard Overview
-<p align="center">
-  <img src="outputs/dashboard.png" width="900"/>
-</p>
-
----
-
-### 📊 Category Analysis (Spending Breakdown)
-<p align="center">
-  <img src="outputs/categories.png" width="800"/>
-</p>
+🔹 User Authentication System  
+🔹 PostgreSQL / Cloud Database Integration  
+🔹 Mobile App Support  
+🔹 Real-time Expense Tracking  
+🔹 Fraud Detection System  
+🔹 AI Budget Recommendation Engine  
+🔹 Voice-based Expense Entry  
 
 ---
 
-### 🥧 Expense Distribution (Pie Chart View)
-<p align="center">
-  <img src="outputs/pie_chart.png" width="700"/>
-</p>
+# 💡 Key Learnings
+
+Through this project, I learned:
+
+✅ End-to-End ML Pipeline Development  
+✅ Financial Data Analytics  
+✅ Streamlit Dashboard Development  
+✅ ML Classification Models  
+✅ TF-IDF Feature Engineering  
+✅ Data Cleaning & Validation  
+✅ Real-world Project Structuring  
 
 ---
 
-### 📈 Monthly Spending Trends
-<p align="center">
-  <img src="outputs/trends.png" width="800"/>
-</p>
+# 👨‍💻 Author
+
+## Sujal Kumar Shaw
+
+🎓 B.Tech Student | Aspiring Data Scientist
+
+### 🚀 Interests
+
+- 📊 Data Science
+- 💰 Financial Analytics
+- 🤖 Artificial Intelligence
+- 📈 Dashboard Development
 
 ---
 
-### 🔮 AI Prediction System (ML Output)
-<p align="center">
-  <img src="outputs/predictor.png" width="700"/>
-</p>
+# 🔗 Project Links
+
+## 🌐 Live Demo
+
+https://ai-expense-tracker-bcnpvttthcqzcmsqfcs5rs.streamlit.app/
+
+
+# ⭐ Contribution & Support
+
+If you found this project useful:
+
+⭐ Star this repository  
+🍴 Fork the project  
+📢 Share with others  
 
 ---
 
-### 🧠 Model Evaluation (Confusion Matrix)
-<p align="center">
-  <img src="outputs/confusion_matrix.png" width="600"/>
-</p>
+# 📜 License
+
+This project is licensed for educational and portfolio purposes.
 
 ---
 
-### 📊 Feature Visualization
-<p align="center">
-  <img src="outputs/categories.png" width="600"/>
-</p>
+# 🚀 Final Note
 
----
-
-### 🗂️ Project Structure
-<p align="center">
-  <img src="outputs/structure.png" width="500"/>
-</p>
-
-## 🚀 Future Enhancements
-
-* 🔐 User authentication system
-* 🗄️ Database integration (SQLite/PostgreSQL)
-* 📱 Mobile-friendly UI
-* 📉 Anomaly detection (fraud / overspending)
-* ☁️ Cloud deployment
-
----
-
-## 🧠 Key Learnings
-
-* End-to-end ML pipeline implementation
-* Data cleaning & validation strategies
-* Streamlit UI design
-* Real-world project structuring
-* Handling user-generated data
-
----
-
-## 👨‍💻 Author
-
-**Sujal Kumar Shaw**
-
----
-
-## ⭐ Contribution & Support
-
-If you found this useful:
-
-* ⭐ Star this repo
-* 🍴 Fork it
-* 📢 Share with others
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
+This project demonstrates how AI, Machine Learning, Financial Analytics, and Interactive Visualization can be combined to build intelligent expense management systems capable of generating meaningful financial insights and predictive analytics.
